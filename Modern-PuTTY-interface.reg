@@ -1,0 +1,56 @@
+Windows Registry Editor Version 5.00
+
+; ------------------------------------------------------------------------------
+; https://github.com/Andrej3000/Modern-PuTTY-interface.git
+; ------------------------------------------------------------------------------
+
+; Replace "Modern-PuTTY-interface" with the PuTTY session name you would like to modify.
+[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\Modern-PuTTY-interface]
+
+; Initial window size set to 120x28
+"TermWidth"=dword:00000078
+"TermHeight"=dword:0000001c
+
+; Scrollback buffer set to 2000 lines
+"ScrollbackLines"=dword:000007d0
+
+; Consolas 11pt ClearType font
+"Font"="Consolas"
+"FontHeight"=dword:0000000b
+"FontQuality"=dword:00000003
+
+; Mouse pointer hides while typing
+"HideMousePtr"=dword:00000001
+
+; Window border set to 0 px
+"WindowBorder"=dword:00000000
+
+; Alert on window close disable
+"WarnOnClose"=dword:00000000
+
+; Color scheme
+"Colour0"="204,204,204"
+"Colour1"="242,242,242"
+"Colour2"="12,12,12"
+"Colour3"="12,12,12"
+"Colour4"="12,12,12"
+"Colour5"="242,242,242"
+"Colour6"="12,12,12"
+"Colour7"="118,118,118"
+"Colour8"="197,15,31"
+"Colour9"="231,72,86"
+"Colour10"="19,161,14"
+"Colour11"="22,198,12"
+"Colour12"="193,156,0"
+"Colour13"="249,241,165"
+"Colour14"="0,55,218"
+"Colour15"="59,120,255"
+"Colour16"="136,23,152"
+"Colour17"="206,0,181"
+"Colour18"="58,150,221"
+"Colour19"="97,214,214"
+"Colour20"="204,204,204"
+"Colour21"="242,242,242"
+
+; Seconds between keepalives set to 59
+"PingIntervalSecs"=dword:0000003b
